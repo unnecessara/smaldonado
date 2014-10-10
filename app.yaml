@@ -6,6 +6,10 @@ threadsafe: yes
 
 handlers:
 
+- url: .*
+  script: index.html
+
+  
 - url: /css
   static_dir: css
 - url: /js
@@ -16,8 +20,10 @@ handlers:
 
 - url: /font
   static_dir: font
-  
-- url: .*
-  script: index.html
+
+- url: /documents
+  static_dir: documents
+
+
 
 

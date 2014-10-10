@@ -957,5 +957,9 @@ ul#category li a:hover {
 /*-------------------------------------------------------------------------*/
 
 
+.documentation-container {
+	width: 800px;
+	margin: auto;
+}
 
 
