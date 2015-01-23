@@ -6,7 +6,7 @@ threadsafe: yes
 
 handlers:
 
-- url: /(.+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff))$
+- url: /(.+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff|pdf))$
   static_files: \1
   upload: .+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff)$
   application_readable: true
