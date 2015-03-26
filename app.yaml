@@ -6,9 +6,12 @@ threadsafe: yes
 
 handlers:
 
+- url: /documents
+  static_dir: documents
+
 - url: /(.+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff|pdf))$
   static_files: \1
-  upload: .+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff)$
+  upload: .+\.(html|css|js|gif|png|jpg|eof|svg|ttf|woff|pdf)$
   application_readable: true
 
 - url: /.*
