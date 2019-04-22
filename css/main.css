@@ -200,7 +200,7 @@ nav#mainNav a.active:after{
 
 
 .imgAbout {
-	background-image: url(../images/two.jpg) ;
+	background-image: url(../images/graypaper.jpg) ;
     background-position: 50% 20%;
     background-size: cover;
     display: block;
@@ -426,16 +426,18 @@ nav#mainNav a.active:after{
 
 .skills .titleSmall {
 		margin-bottom:35px;
+		text-align: right;
 }
 
 .widget{
 	padding-bottom:30px;
 	margin-bottom:30px;
 	border-bottom:3px solid #efefef;
+	text-align: right;
 }
 
 .skillsList li {
-    float: left;
+    /* float: left; */
     margin-bottom: 7px;
 }
 
@@ -445,15 +447,15 @@ nav#mainNav a.active:after{
 }
 
 
-.skillsList h4{
-	float:left;
+.skillsList p{
+	/* float:left; */
 	display:block;
-	width:144px;
+	/* width:144px; */
 	text-transform:uppercase;
 }
 
 .rating{
-	float:left;
+	/* float:left; */
 	margin-top:1px;
 }
 .rating span{
